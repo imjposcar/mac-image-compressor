@@ -2,6 +2,38 @@
 
 A lightweight macOS SwiftUI app to batch-compress images.
 
+![App Icon](app-icon.png)
+
+## Download
+
+Download the latest build from **GitHub Releases**:
+
+- https://github.com/imjposcar/mac-image-compressor/releases/latest
+
+You can choose either:
+- `MacImageCompressor-macOS.dmg` (recommended)
+- `MacImageCompressor-macOS.zip`
+
+### Install
+
+#### Option 1: DMG (recommended)
+1. Download `MacImageCompressor-macOS.dmg`
+2. Open the DMG
+3. Drag **MacImageCompressor.app** into **Applications**
+4. Open the app from Applications
+
+#### Option 2: ZIP
+1. Download `MacImageCompressor-macOS.zip`
+2. Unzip it
+3. Move **MacImageCompressor.app** into **Applications**
+4. Open the app
+
+> If macOS warns about an unidentified developer, right-click the app, choose **Open**, then confirm.
+
+## Screenshot
+
+![App Screenshot](app-screenshot.png)
+
 ## Features
 
 - Select multiple images at once
@@ -10,15 +42,6 @@ A lightweight macOS SwiftUI app to batch-compress images.
 - Max width resize
 - Optional metadata preservation
 - Output logs with before/after size and savings
-
-## Build & Run
-
-```bash
-swift build
-swift run
-```
-
-> Running `swift run` opens the macOS app window.
 
 ## Usage
 
@@ -34,3 +57,12 @@ Compressed files are written as:
 ## Supported input types
 
 PNG, JPEG, TIFF, HEIC, GIF, BMP, WebP
+
+## Build from source
+
+```bash
+swift build
+swift run
+```
+
+> Running `swift run` opens the macOS app window.
